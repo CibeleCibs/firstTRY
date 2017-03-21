@@ -3,7 +3,7 @@
 //  swiftApp
 //
 //  Created by Cibele Bustamante on 3/20/17.
-//  Copyright (c) 2017 Cibele Bustamante. All rights reserved.
+//  Copyright (c) 2017 Cibele Bustamante. All rights reserved..
 //
 
 import UIKit
