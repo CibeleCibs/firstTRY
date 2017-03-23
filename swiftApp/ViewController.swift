@@ -16,12 +16,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var text2: UITextField!
     
-    @IBAction func buttonTapped(sender: AnyObject) {
-        print(text1.text!)
-        print(text2.text!)
-       
-    }
     
+ 
+    @IBAction func buttonTapped(_ sender: AnyObject) {
+        
+        theLabel.text = "\(Double(text1.text!)! + Double(text2.text!)!)"
+    }
+   
    
     override func viewDidLoad() {
         super.viewDidLoad()
